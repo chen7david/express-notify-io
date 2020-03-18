@@ -20,7 +20,5 @@
     "url": "https://github.com/chen7david/express-notify-io/issues"
   },
   "homepage": "https://github.com/chen7david/express-notify-io#readme",
-  "dependencies": {
-    "notify-io": "latest"
-  }
+  "dependencies": {}
 }
