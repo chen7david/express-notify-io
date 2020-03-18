@@ -15,9 +15,7 @@ schema.create('unknown', {
     zh: () =>`服务器有误`,
 })
 
-const notify = new Notify(schema)
-
-const notifyStatusTo = require('express-notify-io')(notify)
+const notifyStatusTo = require('express-notify-io')(schema)
 
 app.use(notifyStatusTo('error'))
 app.use(notifyStatusTo('validation'))
