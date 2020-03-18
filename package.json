@@ -1,0 +1,23 @@
+{
+  "name": "express-notify-io",
+  "version": "0.0.0",
+  "description": "express middleware for notify-io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chen7david/express-notify-io.git"
+  },
+  "keywords": [
+    "middleware",
+    "notify-io"
+  ],
+  "author": "David M.Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chen7david/express-notify-io/issues"
+  },
+  "homepage": "https://github.com/chen7david/express-notify-io#readme"
+}
