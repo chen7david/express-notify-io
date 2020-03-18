@@ -1,6 +1,6 @@
 {
   "name": "express-notify-io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "express middleware for notify-io",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/chen7david/express-notify-io#readme",
   "dependencies": {
-    "notify-io": "^0.1.1"
+    "notify-io": "latest"
   }
 }
