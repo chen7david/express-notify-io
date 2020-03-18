@@ -8,9 +8,9 @@ Easy to setup middleware for notify-io.
 ```js
 const { SchemaBuilder, Notify } = require('notify-io')
 
-const DefaultsSchema = new SchemaBuilder()
+const schema = new SchemaBuilder()
 
-DefaultsSchema.create('unknown', {
+schema.create('unknown', {
     en: () =>`something went wrong`,
     zh: () =>`服务器有误`,
 })
@@ -35,7 +35,7 @@ app.use(notifyStatusTo('validation'))
         if(false) next(error())
 
         // or directly call error in your next function
-        
+
         if(false) next(error(name, data, key)())
 
         // in no errors then continue to process code ...
