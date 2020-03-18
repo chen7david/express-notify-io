@@ -1,6 +1,6 @@
 {
   "name": "express-notify-io",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "express middleware for notify-io",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/chen7david/express-notify-io/issues"
   },
-  "homepage": "https://github.com/chen7david/express-notify-io#readme"
+  "homepage": "https://github.com/chen7david/express-notify-io#readme",
+  "dependencies": {
+    "notify-io": "^0.1.1"
+  }
 }
