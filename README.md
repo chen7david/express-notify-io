@@ -19,8 +19,6 @@ const notify = new Notify(schema)
 
 const notifyStatusTo = require('./express-notify-middleware')(notify)
 
-app.use(notifyStatusTo('info'))
-app.use(notifyStatusTo('warning'))
 app.use(notifyStatusTo('error'))
 app.use(notifyStatusTo('validation'))
 
@@ -30,7 +28,7 @@ app.use(notifyStatusTo('validation'))
 
 ```js
     app.use((req, res, next) => {
-        const { info, error, warning, validation } = req.tools
+        const { error, validation } = req.tools
         error(name, data, key)
         if(false) next(error())
 
