@@ -1,6 +1,6 @@
 {
   "name": "express-notify-io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "express middleware for notify-io",
   "main": "index.js",
   "scripts": {
