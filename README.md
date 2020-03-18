@@ -30,7 +30,7 @@ app.use(notifyStatusTo('validation'))
 
 ```js
     app.use((req, res, next) => {
-        const { error } = req.tools
+        const { info, error, warning, validation } = req.tools
         error(name, data, key)
         if(false) next(error())
 
