@@ -17,7 +17,7 @@ schema.create('unknown', {
 
 const notify = new Notify(schema)
 
-const notifyStatusTo = require('./express-notify-middleware')(notify)
+const notifyStatusTo = require('express-notify-io')(notify)
 
 app.use(notifyStatusTo('error'))
 app.use(notifyStatusTo('validation'))
